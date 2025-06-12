@@ -68,9 +68,16 @@
     align-items: center;
     width: 100%;
   }
+  
   .faded-text{
     margin-bottom: 30px;
   }
+   .faded-text-ski{
+    font-size: 150px;
+    margin-bottom: 135px;
+   color:rgb(231,231,231);
+  }
+ 
   .hero-section-right{
     justify-content: center;
   }
@@ -141,6 +148,6 @@
  .faded-text-ski{
   font-size: 100px;
   margin-bottom: 450px;
-  z-index: 1;
+  z-index: -1;
  }
 }
