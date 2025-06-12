@@ -1,3 +1,5 @@
+
+
 @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap");
 
 * {
@@ -66,15 +68,12 @@
     align-items: center;
     width: 100%;
   }
-
-  .faded-text {
+  .faded-text{
     margin-bottom: 30px;
   }
-
-  .hero-section-right {
+  .hero-section-right{
     justify-content: center;
   }
-
   .hero-section-heading,
   .hero-section-sub-heading {
     font-size: 28px;
@@ -108,14 +107,13 @@
     align-items: flex-start;
     gap: 1.5rem;
   }
+  
 }
-
 @media (max-width: 480px) {
-
   /* Mobile fix for project cards */
   .project-card1,
   .project-card2 {
-    padding: 0 0.5rem;
+    /* padding: 0 0.5rem; */
   }
 
   .project-card {
@@ -126,7 +124,8 @@
   .card {
     background-size: cover;
     background-position: center;
-    height: 250px;
+    height: auto;
+    width: auto;
   }
 
   .project-content {
@@ -136,4 +135,12 @@
   .project-sub-heading {
     font-size: 13px;
   }
+  .project-content-left{
+    padding-top: 100px;
+  } 
+ .faded-text-ski{
+  font-size: 100px;
+  margin-bottom: 450px;
+  z-index: 1;
+ }
 }
